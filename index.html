@@ -17,15 +17,15 @@
 	<div id="banner" style="padding: 50px">
 		<div class="banner">
 			<img src="./images/banner.jpg" alt="" class="img-fluid">
-			<div class="text-banner">
-				<h1 class="banner-h1">Nguyễn Văn A</h1>
-				<span class="banner-text">Full Stack Developer</span>
+			<div class="banner-text">
+				<h1>Nguyễn Văn A</h1>
+			    <span>Full Stack Developer</span>
 			</div>
 		</div>
 	</div>
 
-	<section class="col-sm-12" id="nav-bar">
-		<nav class="container">
+	<section id="nav-bar">
+		<nav class="container-fluid">
 			<a class="nav-button" href="#"><i class="icon-user"></i>Thông tin</a>
 			<a class="nav-button" href="#"><i class="icon-doc-text-inv"></i>Lý lịch</a>
 			<a class="nav-button" href="#"><i class="icon-mail-alt"></i>Chứng chỉ</a>
@@ -33,9 +33,9 @@
 		</nav>
 	</section>
 
-	<section class="col-sm-12" id="about" class="bg-grey">
-		<div class="container">
-			<div class="target">
+	<section id="about" class="bg-grey">
+		<div class="container-fluid row">
+			<div class="target col-md-6 col-sm-12 col-lg-6">
 				<div id="target">
 					<h1 class="section-title">Mục tiêu nghề nghiệp</h1>
 					<p>
@@ -47,7 +47,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="person">
+			<div class="person col-md-6 col-sm-12 col-lg-6">
 				<div id="personal-info">
 					<h1 class="section-title">Thông tin cá nhân</h1>
 					<ul class="mt-40 info">
@@ -58,175 +58,174 @@
 						<li><span>Địa chỉ</span> : Số 45, Long Bien, Hà Nội</li>
 						<li><span>Website</span> : https://abc.tech</li>
 					</ul>
-					<i class="icon-twitter"></i>
-					<i class="icon-facebook"></i>
-					<i class="icon-gplus"></i>
-					<i class="icon-linkedin"></i>
+					<a href="#"><i class="icon-twitter"></i></a>
+					<a href="#"><i class="icon-facebook"></i></a>
+					<a href="#"><i class="icon-gplus"></i></a>
+					<a href="#"><i class="icon-linkedin"></i></a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="col-sm-12" id="job-info">
+	<section id="job-info">
 		<div class="container">
-			<div class="box1" style="margin-top: 20px">
-				<div class="header-box">
-					<h2>Kinh nghiệm</h2>
-					<i class="ic-toolbox"></i>
-				</div>
-				<div class="text">
-					<h4>Công ty Y</h4>
-					<p class="date">05/2022 - <strong>Hiện tại</strong></p>
-					<p>- FullStack Developer</p>
-					<p>- Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có</p>
-					<p>- Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL</p>
-
-					<h4>Công ty X</h4>
-					<p class="date">06/2021 - 04/2022</p>
-					<p>Web Designer</p>
-					<p>- Thiết kế Website dự trên yêu cầu của khách hàng</p>
-					<p>- Sử dụng các công cụ: Figma, Canva, PTS</p>
-				</div>
-				
-			</div>
-			<div class="box1" style="margin-top: 20px">
-				<div class="header-box">
-					<h2>Học vấn</h2>
-					<i class="ic-pencil"></i>
-				</div>
-				<div class="text">
-					<h4>FUNIX</h4>
-					<p class="date">06/2021 - 05/2022</p>
-					<p>- Tốt nghiệp chứng chỉ doanh nghiệp FullStack</p>
-					<p>- GPA: 9/10</p>
-
-					<h4>Cử nhân - ĐH FPT</h4>
-					<p class="date">08/2016 - 07/2019</p>
-					<p>- Chuyên ngành: Kỹ thuật phần mềm</p>
-					<p>- GPA: 3.2/4</p>
-
-					<h4>Đại học Hà Nội</h4>
-					<p class="date">08/2016 - 02/2018</p>
-					<p>- Hệ từ xa, CHuyên ngành: Ngôn ngữ Nhật</p>
-					<p>- GPA: 2.8/4</p>
-				</div>
-				
-			</div>
-			<div class="box1" style="margin-top: 20px">
-				<div class="header-box">
-					<h2>Hoạt động</h2>
-					<i class="ic-toolbox"></i>
-				</div>
-				<div class="text">
-					<h4>FPT Edu Hackathon 2019</h4>
-					<p class="date">03/2019 - 05/2019</p>
-					<p>- Giải 3 bảng A</p>
-					<p>- Đề tài: Trang web về phân loại rác thải.</p>
-
-					<h4>Cử nhân - ĐH FPT</h4>
-					<p class="date">08/2018 - 08/2019</p>
-					<p>- Trưởng ban chuyên môn</p>
+			<div class="row">
+                <div class="box1 col-sm-12 col-md-3" style="margin-top: 20px">
+					<div class="header-box">
+						<h2>Kinh nghiệm</h2>
+						<i class="ic-toolbox"></i>
+					</div>
+					<div class="text">
+						<h4>Công ty Y</h4>
+						<p class="date">05/2022 - <strong>Hiện tại</strong></p>
+						<p>- FullStack Developer</p>
+						<p>- Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có</p>
+						<p>- Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL</p>
+	
+						<h4>Công ty X</h4>
+						<p class="date">06/2021 - 04/2022</p>
+						<p>Web Designer</p>
+						<p>- Thiết kế Website dự trên yêu cầu của khách hàng</p>
+						<p>- Sử dụng các công cụ: Figma, Canva, PTS</p>
+					</div>
 					
-					<h4>Đại học Hà Nội</h4>
-					<p class="date">08/2016</p>
-					<p>- Hỗ trợ tổ chức tuần lễ văn hóa Việt Nam - Nhật Bản</p>
 				</div>
-				
-			</div>
-			<div class="box2" style="margin-top: 20px">
-				<div class="header-box">
-					<h2>Sở thích</h2>
-					<i class="ic-telescope"></i>
+				<div class="box1 col-sm-12 col-md-3" style="margin-top: 20px">
+					<div class="header-box">
+						<h2>Học vấn</h2>
+						<i class="ic-pencil"></i>
+					</div>
+					<div class="text">
+						<h4>FUNIX</h4>
+						<p class="date">06/2021 - 05/2022</p>
+						<p>- Tốt nghiệp chứng chỉ doanh nghiệp FullStack</p>
+						<p>- GPA: 9/10</p>
+	
+						<h4>Cử nhân - ĐH FPT</h4>
+						<p class="date">08/2016 - 07/2019</p>
+						<p>- Chuyên ngành: Kỹ thuật phần mềm</p>
+						<p>- GPA: 3.2/4</p>
+	
+						<h4>Đại học Hà Nội</h4>
+						<p class="date">08/2016 - 02/2018</p>
+						<p>- Hệ từ xa, CHuyên ngành: Ngôn ngữ Nhật</p>
+						<p>- GPA: 2.8/4</p>
+					</div>
+					
 				</div>
-				<div class="icon-st">
-					<i class="ic-megaphone"></i>
-					<i class="ic-hotairballoon"></i>
-					<i class="ic-strategy"></i>
-					<i class="ic-basket"></i>
-					<p>Âm nhạc</p>
-					<p>Du lịch</p>
-					<p>Chơi game</p>
-					<p>Nấu ăn</p>
+				<div class="box1 col-sm-12 col-md-3" style="margin-top: 20px">
+					<div class="header-box">
+						<h2>Hoạt động</h2>
+						<i class="ic-toolbox"></i>
+					</div>
+					<div class="text">
+						<h4>FPT Edu Hackathon 2019</h4>
+						<p class="date">03/2019 - 05/2019</p>
+						<p>- Giải 3 bảng A</p>
+						<p>- Đề tài: Trang web về phân loại rác thải.</p>
+	
+						<h4>Cử nhân - ĐH FPT</h4>
+						<p class="date">08/2018 - 08/2019</p>
+						<p>- Trưởng ban chuyên môn</p>
+						
+						<h4>Đại học Hà Nội</h4>
+						<p class="date">08/2016</p>
+						<p>- Hỗ trợ tổ chức tuần lễ văn hóa Việt Nam - Nhật Bản</p>
+					</div>
+					
 				</div>
-				
-			</div>
-			<div class="box2" style="margin-top: 20px">
-				<div class="header-box">
-					<h2>Ngôn ngữ</h2>
-					<i class="ic-mic"></i>
+				<div class="box1 col-sm-12 col-md-3" style="margin-top: 20px">
+					<div class="header-box">
+						<h2>Sở thích</h2>
+						<i class="ic-telescope"></i>
+					</div>
+					<div class="icon-st">
+						<p><i class="ic-megaphone"></i>Âm nhạc</p>
+						<p><i class="ic-hotairballoon"></i>Du lịch</p>
+						<p><i class="ic-strategy"></i>Chơi game</p>
+						<p><i class="ic-basket"></i>Nấu ăn</p>
+					</div>
+					
 				</div>
-				<h4>Tiếng Anh - IELTS 7.0</h4>
-				<div class="span1">
-					<span></span>
-					<span></span>
-					<span></span>
+				<div class="box1 col-sm-12 col-md-3" style="margin-top: 20px">
+					<div class="header-box">
+						<h2>Ngôn ngữ</h2>
+						<i class="ic-mic"></i>
+					</div>
+					<h4>Tiếng Anh - IELTS 7.0</h4>
+					<div class="span1">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+	
+					<h4>Tiếng Nhật - JLPT N4</h4>
+					<div class="span2">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
 				</div>
-
-				<h4>Tiếng Nhật - JLPT N4</h4>
-				<div class="span2">
-					<span></span>
-					<span></span>
-					<span></span>
+				<div class="box1 col-sm-12 col-md-3" style="margin-top: 20px">
+					<div class="header-box">
+						<h2>Kỹ năng</h2>
+						<i class="ic-tools-2"></i>
+					</div>
+					<h4>HTML/CSS: Fundamental</h4>
+					<div class="span2">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+	
+					<h4>JavaScript: Intermediate</h4>
+					<div class="span1">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<h4>NodeJS: Intermediate</h4>
+					<div class="span1">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+	
+					<h4>Bootstraps 5: Fundamental</h4>
+					<div class="span2">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
 				</div>
-			</div>
-			<div class="box2" style="margin-top: 20px">
-				<div class="header-box">
-					<h2>Kỹ năng</h2>
-					<i class="ic-tools-2"></i>
-				</div>
-				<h4>HTML/CSS: Fundamental</h4>
-				<div class="span2">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-
-				<h4>JavaScript: Intermediate</h4>
-				<div class="span1">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<h4>NodeJS: Intermediate</h4>
-				<div class="span1">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-
-				<h4>Bootstraps 5: Fundamental</h4>
-				<div class="span2">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</div>
+			</div>	
 		</div>
 	</section>
-	<section class="col-sm-12" id="certificate" class="bg-grey">
+	<section id="certificate" class="bg-grey">
+		<h1 class="section-title">
+			Chứng chỉ - Giải thưởng
+		</h1>
 		<div class="container">
-			<h1 class="section-title">
-				Chứng chỉ - Giải thưởng
-			</h1>
-			<div class="ctgt">
-				<div class="ct1">
-					<img class="img-ct1" src="./images/Cert_DBI.png" alt="">
+			<div class="row">
+				<div class="ct1 col-md-6">
+					<img class="img-ct" src="./images/Cert_DBI.png" alt="">
 					<div class="text-ct">
 						<h5>CHỨNG CHỈ LẬP TRÌNH WEB FUNIX</h5>
 						<p>- Chứng chỉ thuộc chương trình CCDN</p>
 						<p>- GPA: 8.6</p>
 					</div>
 				</div>
-				<div class="ct1">
-					<img class="img-ct1" src="./images/Cert_PRF.png" alt="">
+				
+				<div class="ct1 col-sm-12 col-md-6">
+					<img class="img-ct" src="./images/Cert_PRF.png" alt="">
 					<div class="text-ct">
 						<h5>CHỨNG CHỈ LẬP TRÌNH WEB FUNIX</h5>
 						<p>- Chứng chỉ thuộc chương trình CCDN</p>
 						<p>- GPA: 8.9</p>
 					</div>
 				</div>
-				<div class="ct1">
-					<img class="img-ct1" src="./images/Cert_WEB.png" alt="">
+				<div class="ct1 col-md-6">
+					<img class="img-ct" src="./images/Cert_WEB.png" alt="">
 					<div class="text-ct">
 						<h5>CHỨNG CHỈ LẬP TRÌNH WEB FUNIX</h5>
 						<p>- Chứng chỉ thuộc chương trình CCDN</p>
@@ -237,13 +236,13 @@
 		</div>
 	</section>
 
-	<section class="col-sm-12" id="project">
+	<section id="project">
+		<h1 class="section-title">
+			Dự án
+		</h1>
 		<div class="container">
-			<h1 class="section-title">
-				Dự án
-			</h1>
-			<div class="da">
-				<div class="da-box">
+			<div class="row">
+				<div class="da-box col-sm-12 col-md-4">
 					<img src="./images/project_1.png" alt="">
 					<p>CV CÁ NHÂN</p>
 					<div class="tt">
@@ -267,7 +266,7 @@
 					</table>
 				</div>
 	
-				<div class="da-box">
+				<div class="da-box col-sm-12 col-md-4">
 					<img src="./images/project_2.png" alt="">
 					<p>TRANG WEB QUẢN LÝ THÚ CƯNG</p>
 					<div class="tt">
@@ -291,7 +290,7 @@
 					</table>
 				</div>
 	
-				<div class="da-box">
+				<div class="da-box col-sm-12 col-md-4">
 					<img src="./images/project_3.png" alt="">
 					<p>TRANG WEB XEM TIN TỨC</p>
 					<div class="tt">
@@ -319,11 +318,16 @@
 		</div>
 	</section>
 
-	<section class="col-sm-12" id="footer" class="bg-grey">
+	<section id="footer" class="bg-grey">
 		<div class="container">
 			<ul class="footer">
+				
 				<li class="footer-icon"><i class="icon-facebook-circled"></i>Facebook</li>
+
+				
 				<li class="footer-icon"><i class="icon-linkedin-circled"></i>Linkedin</li>
+
+				
 				<li class="footer-icon"><i class="icon-github-circled"></i>Github</li>
 			</ul>
 		</div>
