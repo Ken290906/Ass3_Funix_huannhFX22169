@@ -4,28 +4,9 @@
         left: 35%;
     }
 
-    .header-box > h2,i {
-        font-size: 22px;
-    }
-
-    .box1 {
-        font-size: 20px;
-    }
-
-    .text > h4,p {
-        font-size: 13.5px;
-    }
-
-    .icon-st {
-        display: grid;
-        grid-template-columns: repeat(2, 70px);
-    }
-
-    .icon-st > p > i {
-        padding: 10px;
-        font-size: 15px;
-        border: 2px solid greenyellow;
-        border-radius: 50%;
+    #job-info > .container > .row {
+       display: flex;
+       justify-content: center;
     }
     
 }
