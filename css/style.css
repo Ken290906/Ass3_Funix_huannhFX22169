@@ -16,6 +16,10 @@ section {
 }
 
 /* Banner */
+#banner {
+    padding: 50px;
+}
+
 .banner {
     position: relative;
     opacity: 80%;
@@ -88,7 +92,6 @@ section {
 
 .box1 {
     border: 2px solid rgba(128, 128, 128, 0.842);
-    margin-left: 5px;
 }
 
 .box1 > h4 {
@@ -258,6 +261,7 @@ section {
 }
 
 table {
+    width: 331px;
     border: 2px solid black;
 }
 
