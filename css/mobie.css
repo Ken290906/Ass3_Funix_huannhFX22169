@@ -12,9 +12,34 @@
         align-items: start;
     }
 
+    .pt-navbar {
+        display: none;
+    }
+
+    .img-cte {
+        margin-top: 10px;
+    }
+
+    .ct1 {
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 2px solid orangered;
+    }
+
+    .ct0 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .nav-button {
         border: none;
     }
 
-    
+    hr {
+        display: none;
+    }
+
+    .tt {
+        display: flex;
+    }   
 }

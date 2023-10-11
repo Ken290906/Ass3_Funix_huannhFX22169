@@ -4,9 +4,32 @@
         left: 35%;
     }
 
+    .pt-navbar {
+        display: none;
+    }
+
     #job-info > .container > .row {
        display: flex;
        justify-content: center;
     }
+
+    .img-cte {
+        width: 300px;
+    }
+
+    .ct1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ct0 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tt {
+        display: flex;
+        flex-wrap: wrap;
+    }   
     
 }
