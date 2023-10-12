@@ -27,13 +27,13 @@ section {
 
 .img-fluid {
     width: 100%;
-    z-index: 1;
+    z-index: 1;  /* Lớp phần tử */
     position: relative;
 }
 
 .banner-text {
     text-align: center;
-    position: absolute;
+    position: absolute;/* thuộc tính có cha là position: relative */
     color: #fff;
     top: 12em;
     left: 40%;
@@ -43,14 +43,14 @@ section {
 /* nav-bar */
 #nav-bar > .container-fluid {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Đẩy các phần tử ra giữa màn hình */
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Khi màn hình thu hẹp phần tử sẽ tự động xuống dòng */
 }
 
 .pt-navbar {
     width: 100px;
-    border-radius: 50%;
+    border-radius: 50%; /* Tỉ lệ bo góc 1-100% */
     border: 8px solid rgba(128, 128, 128, 0.413);
 }
 
@@ -60,8 +60,8 @@ section {
 }
 
 .nav-button {
-    text-decoration: none;
-    color: #0000006d;
+    text-decoration: none; /* Loại bỏ gạch chân các thẻ a */
+    color: #000000c0;
     padding: 12px 35px;
     border: 2px solid;
     margin-left: 10px;
@@ -91,10 +91,10 @@ section {
 }
 
 .mt-40 {
-    list-style: none;
+    list-style: none; /* Loại bỏ các chấm đối với thẻ li */
 }
 
-#personal-info > a {
+#personal-info > a { /* Chỉ lấy các thẻ a trong id="personal-info" */
     color: rgb(25, 197, 255);
     margin-left: 20px;
 }
@@ -119,7 +119,7 @@ section {
 
 .header-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;/* Chia đều các phần tử */
     padding: 15px 5px;
 }
 
@@ -132,7 +132,7 @@ section {
     background-color: #199cdb;
     color: #fff;
     border-radius: 15px;
-    font-style: italic;
+    font-style: italic; /* Phông chữ */
 }
 
 .header-box > i {
@@ -161,14 +161,14 @@ section {
 
 .span1 > span:nth-child(1) {
     background: #199cdb;
-    display: inline-block;
+    display: inline-block; /* Dụng menu ngang */
     height: 4.5px;
     margin-left: 15px;
     width: 45px;
     border-radius: 10px;
 }
 
-.span1 > span:nth-child(2) {
+.span1 > span:nth-child(2) { /* Đánh dấu thẻ span thứ 2 trong thẻ cha .span1 */
     background: #199cdb;
     display: inline-block;
     height: 4.5px;
@@ -177,7 +177,7 @@ section {
     border-radius: 10px;
 }
 
-.span1 > span:last-child {
+.span1 > span:last-child { /* Thẻ span cuối cùng trong thẻ span1 */
     background: #c4c4c4ab;
     display: inline-block;
     height: 4.5px;
@@ -243,13 +243,12 @@ section {
 
 .da-box {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Chia các phần tử theo chiều dọc dạng cột */
 }
 
 .da-box > p {
     padding: 10px;
     border: 2px solid black;
-    
 }
 
 .tt {
